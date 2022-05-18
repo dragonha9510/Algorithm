@@ -4,28 +4,23 @@ using namespace std;
 
 int main()
 {
-	int iArr[10] = {0};
-
+	int iArr[10] = { 0 };
 	int hundMill = 100000000;
 
-	int iPro = 0;
+	int iMul = 0;
 	int iA, iB, iC;
 
 	cin >> iA >> iB >> iC;
+	iMul = iA * iB * iC;
 
-	iPro = iA * iB * iC;
-
-	if (!(iPro / hundMill))
-		hundMill /= 10;
-
-	if (!(iPro / hundMill))
+	while(!(iMul / hundMill))
 		hundMill /= 10;
 
 	for (int i = 0; i < 9; ++i)
 	{
-		iArr[iPro / hundMill]++;
+		iArr[iMul / hundMill]++;
 
-		iPro %= hundMill;
+		iMul %= hundMill;
 
 		hundMill /= 10;
 
