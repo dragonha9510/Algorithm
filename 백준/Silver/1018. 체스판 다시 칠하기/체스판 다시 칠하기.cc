@@ -47,9 +47,9 @@ int main()
     for (int i = 0; i < iLine; ++i)
         cin >> pstrChess[i];
 
-    for (int i = 0; i + 8 <= iLine; ++i)
+    for (int i = 0; i <= iLine - 8; ++i)
     {
-        for (int j = 0; j + 8 <= iCol; ++j)
+        for (int j = 0; j <= iCol - 8; ++j)
         {
             int iTemp = CountMin(i, j, pstrChess);
 
