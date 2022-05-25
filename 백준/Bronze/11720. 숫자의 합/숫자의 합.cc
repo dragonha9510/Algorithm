@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 
 using namespace std;
 
@@ -15,9 +14,7 @@ int main()
     cin >> strInput;
     
     for(size_t i = 0; i < iSize; ++i)
-    {
         iRes += CHARTOINT(strInput[i]);
-    }
     
     cout << iRes;
     
