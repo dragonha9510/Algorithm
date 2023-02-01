@@ -3,10 +3,10 @@
 
 long long solution2(int a, int b)
 {
-	long long temp = a;
+	int temp = a;
 
 	a = temp > b ? b : temp;
 	b = temp > b ? temp : b;
 
-	return ((long long)a + b) * (b - a + 1) / 2;
+	return ((long long)a + b) * ((long long)b - a + 1) / 2;
 }

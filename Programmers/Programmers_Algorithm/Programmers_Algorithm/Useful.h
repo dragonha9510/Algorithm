@@ -144,3 +144,43 @@ int lcm(int a, int b)
 {
 	return (a * b) / gcd(a, b);
 }
+
+char ToLowerCase(char a)
+{
+	if (a <= 'Z' && a >= 'A')
+		a = a - 'A' + 'a';
+
+	return a;
+}
+
+string BaseToNRadix(int N, int n)
+{
+	string result;
+	int Radix = 0;
+
+	for (Radix = N; n > 0; Radix *= N)
+	{
+		result = (char)(((n % Radix) / (Radix / N)) + '0') + result;
+		n -= n % Radix;
+	}
+
+	return result;
+}
+
+bool isPrime(long long n)
+{
+	if (n <= 1)
+		return false;
+	if (n <= 3)
+		return true;
+	if (n % 2 == 0 || n % 3 == 0)
+		return false;
+
+	for (long long i = 5; i * i <= n; i += 6)
+	{
+		if (n % i == 0 || n % (i + 2) == 0)
+			return false;
+	}
+
+	return true;
+}

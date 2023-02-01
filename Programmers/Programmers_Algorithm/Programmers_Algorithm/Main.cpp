@@ -2,14 +2,7 @@
 
 int main()
 {
-	//cout << solution() << endl;
-	
-	//auto c = solution();
-
-	//for (const auto& a : c)
-	//{
-	//	cout << a;
-	//}
+	solution07("KAKAOKAOB");
 
 	return 0;
 }
