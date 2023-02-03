@@ -8,7 +8,7 @@
 using namespace std;
 
 template <typename T>
-void quickSort(std::vector<T>& arr, int left, int right)
+void quickSort(std::vector<T>& arr, int left, int right, bool reverse = false)
 {
 	int i = left;
 	int j = right;
@@ -16,10 +16,21 @@ void quickSort(std::vector<T>& arr, int left, int right)
 
 	while (i <= j)
 	{
-		while (arr[i] < pivot)
-			i++;
-		while (arr[j] > pivot)
-			j--;
+		if (reverse)
+		{
+			while (arr[i] > pivot)
+				i++;
+			while (arr[j] < pivot)
+				j--;
+		}
+		else
+		{
+			while (arr[i] < pivot)
+				i++;
+			while (arr[j] > pivot)
+				j--;
+		}
+		
 		if (i <= j)
 		{
 			std::swap(arr[i], arr[j]);
@@ -29,9 +40,9 @@ void quickSort(std::vector<T>& arr, int left, int right)
 	}
 
 	if (left < j)
-		quickSort(arr, left, j);
+		quickSort(arr, left, j, reverse);
 	if (i < right)
-		quickSort(arr, i, right);
+		quickSort(arr, i, right, reverse);
 }
 template <typename T, typename A>
 void quickSort(T& arr, int left, int right)

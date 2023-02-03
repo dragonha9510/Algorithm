@@ -6,20 +6,20 @@ typedef struct mynode
 	bool visit;
 	bool end;
 	vector<mynode> node;
-}NODE;
+}TrieNODE;
 
 typedef struct Trie
 {
-	vector<NODE> node;
+	vector<TrieNODE> node;
 	Trie()
 	{
 		for (int i = 0; i < 9; ++i)
-			node.push_back(NODE());
+			node.push_back(TrieNODE());
 	}
 
 	bool insert(string n)
 	{
-		vector<NODE>* check = &node;
+		vector<TrieNODE>* check = &node;
 
 		for (size_t i = 0; i < n.size(); ++i)
 		{
@@ -47,7 +47,7 @@ typedef struct Trie
 			if (check->size() == 0)
 			{
 				for (int i = 0; i < 9; ++i)
-					check->push_back(NODE());
+					check->push_back(TrieNODE());
 			}
 		}
 

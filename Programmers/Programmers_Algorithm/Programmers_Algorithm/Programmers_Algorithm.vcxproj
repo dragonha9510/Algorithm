@@ -158,6 +158,8 @@
     <ClInclude Include="05_서울에서김서방찾기.h" />
     <ClInclude Include="01_정수내림차순으로배치하기.h" />
     <ClInclude Include="03_콜라츠추측%283n+1%29.h" />
+    <ClInclude Include="00_07_더맵게.h" />
+    <ClInclude Include="중앙값큐만들기.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

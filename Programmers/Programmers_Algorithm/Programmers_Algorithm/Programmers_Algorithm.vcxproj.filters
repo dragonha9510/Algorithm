@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\Lv2">
       <UniqueIdentifier>{c11f50c8-24e3-41d3-84b2-18c33607025f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\NONE">
+      <UniqueIdentifier>{71894f68-47e0-49a0-a073-6ed134462fba}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -73,6 +76,12 @@
     </ClInclude>
     <ClInclude Include="00_06_압축.h">
       <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_07_더맵게.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="중앙값큐만들기.h">
+      <Filter>소스 파일\NONE</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
