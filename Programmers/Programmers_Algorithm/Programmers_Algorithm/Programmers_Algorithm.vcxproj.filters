@@ -83,5 +83,14 @@
     <ClInclude Include="중앙값큐만들기.h">
       <Filter>소스 파일\NONE</Filter>
     </ClInclude>
+    <ClInclude Include="00_08_피로도.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_09_N진수게임.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_10_오픈채팅방.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

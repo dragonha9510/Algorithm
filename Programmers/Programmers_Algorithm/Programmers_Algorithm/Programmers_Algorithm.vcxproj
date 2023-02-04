@@ -148,6 +148,9 @@
     <ClInclude Include="00_04_k진수에서소수개수구하기.h" />
     <ClInclude Include="00_05_연속부분수열합의개수.h" />
     <ClInclude Include="00_06_압축.h" />
+    <ClInclude Include="00_08_피로도.h" />
+    <ClInclude Include="00_09_N진수게임.h" />
+    <ClInclude Include="00_10_오픈채팅방.h" />
     <ClInclude Include="00_Harshad.h" />
     <ClInclude Include="00_00_뉴스클러스터링.h" />
     <ClInclude Include="Main.h" />

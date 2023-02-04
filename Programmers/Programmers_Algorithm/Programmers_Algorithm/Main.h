@@ -24,3 +24,5 @@
 #include "00_05_연속부분수열합의개수.h"
 #include "00_06_압축.h"
 #include "00_07_더맵게.h"
+#include "00_08_피로도.h"
+#include "00_09_N진수게임.h"

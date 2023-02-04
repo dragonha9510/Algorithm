@@ -171,9 +171,19 @@ string BaseToNRadix(int N, int n)
 
 	for (Radix = N; n > 0; Radix *= N)
 	{
-		result = (char)(((n % Radix) / (Radix / N)) + '0') + result;
+		char num;
+		int a = (n % Radix) / (Radix / N);
+		if (a >= 10)
+			num = a - 10 + 'A';
+		else
+			num = a + '0';
+
+		result = num + result;
 		n -= n % Radix;
 	}
+
+	if (result.empty())
+		result.push_back('0');
 
 	return result;
 }

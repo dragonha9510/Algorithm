@@ -2,12 +2,15 @@
 
 int main()
 {
-	auto answer = solution999();
+	auto answer = solution010(16,16,2,1);
 
-	for (const auto& c : answer)
-	{
-		cout << c << endl;
-	}
+	cout << endl;
+	cout << answer << endl;
+
+	//for (const auto& c : answer)
+	//{
+	//	cout << c << endl;
+	//}
 
 	return 0;
 }
