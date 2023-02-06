@@ -151,6 +151,7 @@
     <ClInclude Include="00_08_피로도.h" />
     <ClInclude Include="00_09_N진수게임.h" />
     <ClInclude Include="00_10_오픈채팅방.h" />
+    <ClInclude Include="00_11_주차요금계산.h" />
     <ClInclude Include="00_Harshad.h" />
     <ClInclude Include="00_00_뉴스클러스터링.h" />
     <ClInclude Include="Main.h" />

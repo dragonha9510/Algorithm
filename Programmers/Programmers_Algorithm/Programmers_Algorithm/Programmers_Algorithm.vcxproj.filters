@@ -92,5 +92,8 @@
     <ClInclude Include="00_10_오픈채팅방.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="00_11_주차요금계산.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

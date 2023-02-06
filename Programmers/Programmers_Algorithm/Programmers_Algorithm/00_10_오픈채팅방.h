@@ -1,7 +1,7 @@
 #pragma once
 #include "Useful.h"
 
-vector<string> solution11(vector<string> record)
+vector<string> solution011(vector<string> record)
 {
 	map<string, string> check;
 	vector<pair<string, int>> recordCheck;
