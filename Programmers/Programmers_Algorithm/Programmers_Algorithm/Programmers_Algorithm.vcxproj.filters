@@ -95,5 +95,11 @@
     <ClInclude Include="00_11_주차요금계산.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="00_12_주식가격.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_13_할인행사.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

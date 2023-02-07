@@ -28,3 +28,5 @@
 #include "00_09_N진수게임.h"
 #include "00_10_오픈채팅방.h"
 #include "00_11_주차요금계산.h"
+#include "00_12_주식가격.h"
+#include "00_13_할인행사.h"
