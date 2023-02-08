@@ -6,6 +6,8 @@
 
 // NONE
 #include "중앙값큐만들기.h"
+#include "로봇청소기.h"
+#include "숫자게임.h"
 
 // Lv1
 #include "00_Harshad.h"
@@ -30,3 +32,5 @@
 #include "00_11_주차요금계산.h"
 #include "00_12_주식가격.h"
 #include "00_13_할인행사.h"
+#include "00_14_둘만의암호.h"
+#include "00_15_스킬트리.h"

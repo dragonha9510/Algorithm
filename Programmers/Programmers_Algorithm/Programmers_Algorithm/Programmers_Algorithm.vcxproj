@@ -154,6 +154,8 @@
     <ClInclude Include="00_11_주차요금계산.h" />
     <ClInclude Include="00_12_주식가격.h" />
     <ClInclude Include="00_13_할인행사.h" />
+    <ClInclude Include="00_14_둘만의암호.h" />
+    <ClInclude Include="00_15_스킬트리.h" />
     <ClInclude Include="00_Harshad.h" />
     <ClInclude Include="00_00_뉴스클러스터링.h" />
     <ClInclude Include="Main.h" />
@@ -165,6 +167,8 @@
     <ClInclude Include="01_정수내림차순으로배치하기.h" />
     <ClInclude Include="03_콜라츠추측%283n+1%29.h" />
     <ClInclude Include="00_07_더맵게.h" />
+    <ClInclude Include="로봇청소기.h" />
+    <ClInclude Include="숫자게임.h" />
     <ClInclude Include="중앙값큐만들기.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -2,7 +2,8 @@
 
 int main()
 {
-	auto answer = solution014({ "banana", "apple", "rice", "pork", "pot" }, { 3, 2, 2, 2, 1 }, { "chicken", "apple", "apple", "banana", "rice", "apple", "pork", "banana", "pork", "rice", "pot", "banana", "apple", "banana" });
+	auto answer = solution016("CBD", {"BACDE", "CBADF", "AECB", "BDA"});
+	cout << answer << endl;
 
 	//for (const auto& c : answer)
 	//{

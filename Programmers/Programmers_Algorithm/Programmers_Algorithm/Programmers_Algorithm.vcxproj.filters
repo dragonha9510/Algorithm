@@ -101,5 +101,17 @@
     <ClInclude Include="00_13_할인행사.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="로봇청소기.h">
+      <Filter>소스 파일\NONE</Filter>
+    </ClInclude>
+    <ClInclude Include="숫자게임.h">
+      <Filter>소스 파일\NONE</Filter>
+    </ClInclude>
+    <ClInclude Include="00_14_둘만의암호.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_15_스킬트리.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
