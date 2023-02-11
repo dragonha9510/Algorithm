@@ -18,7 +18,7 @@ int solution016(string skill, vector<string>skill_trees)
 				{
 					for (size_t k = 0; k < a.size(); ++k)
 					{
-						if (a[k] > j)
+						if ((size_t)a[k] > j)
 						{
 							bCheck = true;
 							break;

@@ -156,6 +156,8 @@
     <ClInclude Include="00_13_할인행사.h" />
     <ClInclude Include="00_14_둘만의암호.h" />
     <ClInclude Include="00_15_스킬트리.h" />
+    <ClInclude Include="00_16_땅따먹기.h" />
+    <ClInclude Include="00_17_방문길이.h" />
     <ClInclude Include="00_Harshad.h" />
     <ClInclude Include="00_00_뉴스클러스터링.h" />
     <ClInclude Include="Main.h" />

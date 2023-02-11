@@ -113,5 +113,11 @@
     <ClInclude Include="00_15_스킬트리.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="00_16_땅따먹기.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_17_방문길이.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

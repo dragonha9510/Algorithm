@@ -38,7 +38,7 @@ int solution9999_1(vector<int> A, vector<int> B)
 	for (size_t i = 0; i < A.size(); ++i)
 	{
 		bool isEmpty = true;
-		while (bIdx < B.size())
+		while (bIdx < (int)B.size())
 		{
 			if (A[i] >= B[bIdx++])
 				continue;
