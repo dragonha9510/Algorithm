@@ -35,3 +35,5 @@
 #include "00_14_둘만의암호.h"
 #include "00_15_스킬트리.h"
 #include "00_16_땅따먹기.h"
+#include "00_17_방문길이.h"
+#include "00_18_모음사전.h"
