@@ -122,5 +122,8 @@
     <ClInclude Include="00_18_모음사전.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="00_19_가장큰수.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

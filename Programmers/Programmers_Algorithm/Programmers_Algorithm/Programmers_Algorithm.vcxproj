@@ -159,6 +159,7 @@
     <ClInclude Include="00_16_땅따먹기.h" />
     <ClInclude Include="00_17_방문길이.h" />
     <ClInclude Include="00_18_모음사전.h" />
+    <ClInclude Include="00_19_가장큰수.h" />
     <ClInclude Include="00_Harshad.h" />
     <ClInclude Include="00_00_뉴스클러스터링.h" />
     <ClInclude Include="Main.h" />

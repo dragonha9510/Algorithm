@@ -45,6 +45,7 @@ void quickSort(std::vector<T>& arr, int left, int right, bool reverse = false)
 	if (i < right)
 		quickSort(arr, i, right, reverse);
 }
+
 template <typename T, typename A>
 void quickSort(T& arr, int left, int right)
 {
