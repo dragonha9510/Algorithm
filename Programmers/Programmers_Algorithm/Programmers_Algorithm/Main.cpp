@@ -2,13 +2,13 @@
 
 int main()
 {
-	auto answer = solution020({2,10,6 });
-	cout << answer << endl;
+	auto answer = solution022({2,7});
+	//cout << answer << endl;
 
-	//for (const auto& c : answer)
-	//{
-	//	cout << c << endl;
-	//}
+	for (const auto& c : answer)
+	{
+		cout << c << endl;
+	}
 
 	return 0;
 }

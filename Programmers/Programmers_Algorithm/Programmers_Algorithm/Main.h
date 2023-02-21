@@ -38,3 +38,5 @@
 #include "00_17_방문길이.h"
 #include "00_18_모음사전.h"
 #include "00_19_가장큰수.h"
+#include "00_20_124나라.h"
+#include "00_21_2개이하로다른비트.h"

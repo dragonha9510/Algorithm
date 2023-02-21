@@ -133,6 +133,19 @@ T StringToNum(string str)
 	return num;
 }
 
+long long stringBinToBase(string a)
+{
+	long long result = 0;
+	long long base = 1;
+	for (int i = (int)a.size() - 1; i >= 0; --i)
+	{
+		result += (long long)(a[i] - '0') * base;
+		base *= 2;
+	}
+
+	return result;
+}
+
 int AddAllDigit(int num)
 {
 	int result = 0;

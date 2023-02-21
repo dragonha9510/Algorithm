@@ -125,5 +125,11 @@
     <ClInclude Include="00_19_가장큰수.h">
       <Filter>소스 파일\Lv2</Filter>
     </ClInclude>
+    <ClInclude Include="00_20_124나라.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
+    <ClInclude Include="00_21_2개이하로다른비트.h">
+      <Filter>소스 파일\Lv2</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
